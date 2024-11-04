@@ -11,7 +11,10 @@ with st.form("text_to_image"):
         options=(
             "@cf/lykon/dreamshaper-8-lcm",
             "@cf/bytedance/stable-diffusion-xl-lightning",
+            "@cf/runwayml/stable-diffusion-v1-5-img2img",
+            "@cf/runwayml/stable-diffusion-v1-5-inpainting",
             "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+            "@cf/black-forest-labs/flux-1-schnell"
         ),
     )
     prompt = st.text_area("Prompt")
